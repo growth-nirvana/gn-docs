@@ -10,7 +10,7 @@ has_toc: false
 
 Amplitude gives you the power to track what’s important to your experience. You can choose to track anything and everything.
 
-In this guide, we’ll give a high level overview of how to correctly configure Amplitude so that purchase data in your system (first party data) can be easily connected to third party data coming from your advertising partners Facebook and Google (third party data).
+In this guide, we’ll give a high level overview of how to correctly configure Amplitude so that Growth Nirvana can seamlessy connect purchase data in your system (first party data) to third party data coming from your advertising partners Facebook and Google (third party data).
 
 ## Growth Nirvana Prerequisites
 These prerequisites below are the minimum for a successful Growth Nirvana implementation.
