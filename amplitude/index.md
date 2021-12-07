@@ -82,9 +82,9 @@ Documenation to set up UTM parameters in your ad platform is available here: <a 
 URL parameters can help you understand the effectiveness of your ads. You can input your own custom URL parameters or you can use the dynamic URL parameters Facebook offers for your ads. Dynamic parameters are helpful because they provide an automated way to populate the values of your parameters based on information you provide when setting up your ad and information related to how your ads are delivered.
 * UTM Campaign
     * Should use the adset id
-    * Dynamic parameter `{{adset.id}}`
+    * Dynamic parameter {% raw %}{{adset.id}}{% endraw %}
 * UTM Content
     * Should use the ad id
-    * Dynamic parameter `{{ad.id}}`
+    * Dynamic parameter {% raw %}{{ad.id}}{% endraw %}
 
 More documentation can be found here: <a href="https://www.facebook.com/business/help/2360940870872492" target="_blank">Facebook Ads</a>
