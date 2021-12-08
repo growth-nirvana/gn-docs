@@ -10,7 +10,7 @@ has_toc: false
 
 Direct attribution is becoming challenging given the FB/iOS changes and direction towards a cookie-less world
  * High consideration purchases (ex, B2B) may not show up in click attribution
- * Channels like YouTube performs poorly on click attribution, but may work well for you business
+ * Channels like YouTube perform poorly on click attribution, but may work well for your business
  * Understanding missing attribution is critical in scaling digital marketing channels
 
 Implementation
