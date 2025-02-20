@@ -65,6 +65,3 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-
-
-color_scheme: gn
