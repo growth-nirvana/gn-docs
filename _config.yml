@@ -23,7 +23,7 @@ email: jesse.ocon@growthnirvana.com
 description: >- # this means to ignore newlines until "baseurl:"
   Documentation for the Growth Nirvana platform.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://docs.growthnirvana.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://docs.growthnirvana.com"
 twitter_username: ""
 github_username: ""
 
@@ -33,14 +33,27 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
+# Theme settings
+color_scheme: gn
+search_enabled: true
+
+# Navigation
+nav_sort: case_sensitive
+
+# Make Data Connectors the default section
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+aux_links:
+  "Open app":
+    - "https://app.growthnirvana.com"
+
+aux_links_new_tab: true
+
 exclude:
   - .sass-cache/
   - .jekyll-cache/
@@ -53,10 +66,5 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
-aux_links:
-  "Open app":
-    - "https://app.growthnirvana.com"
-
-aux_links_new_tab: true
 
 color_scheme: gn
