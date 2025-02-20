@@ -3,6 +3,7 @@ layout: default
 title: Data Connectors
 nav_order: 2
 has_children: true
+has_toc: true
 ---
 
 # Data Connectors
